@@ -10,7 +10,7 @@ import React from "react";
 
 const styles = {
   headerStyle: {
-    background: "red",
+    background: "lightgrey",
   
   },
   headingStyle: {
@@ -24,6 +24,8 @@ const styles = {
 function Header() {
   return (
     <header style={styles.headerStyle} className="header">
+      {/* <img src="/images/blue.jpeg" alt=""></img> */}
+
       <h3 style={styles.headingStyle}>Jose Orozco</h3>
     </header>
   );
