@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -9,11 +10,13 @@ import React from 'react';
 
 const styles = {
   headerStyle: {
-    background: 'red',
+    background: "red",
+  
   },
   headingStyle: {
-    fontSize: '100px',
+    fontSize: "100px",
   },
+  
 };
 
 // We use JSX curly braces to evaluate the style object
@@ -21,7 +24,7 @@ const styles = {
 function Header() {
   return (
     <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Welcome</h1>
+      <h3 style={styles.headingStyle}>Jose Orozco</h3>
     </header>
   );
 }

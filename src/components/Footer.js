@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -9,10 +9,10 @@ import React from 'react';
 
 const styles = {
   footerStyle: {
-    background: 'blue',
+    background: "blue",
   },
   headingStyle: {
-    fontSize: '100px',
+    fontSize: "50px",
   },
 };
 
@@ -21,7 +21,7 @@ const styles = {
 function Footer() {
   return (
     <footer style={styles.footerStyle} className="footer">
-      <h1 style={styles.headingStyle}>&copy;</h1>
+      <h1 style={styles.headingStyle}>Made by Jose &copy; 2021</h1>
     </footer>
   );
 }

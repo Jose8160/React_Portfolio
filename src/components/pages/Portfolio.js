@@ -1,40 +1,55 @@
-import React from 'react';
-
-const canines = [
-  {
-    name: 'Spot',
-    description: 'The best boy',
-    id: 1,
-  },
-  {
-    name: 'Zero',
-    description: 'A kind soul',
-    id: 2,
-  },
-  {
-    name: 'Walter',
-    description: 'Friend for life',
-    id: 3,
-  },
-];
-
-export default function Display() {
+import React from "react";
+import "./App.css";
+export default function About() {
   return (
     <div>
-      {canines.map((dog) => (
-        <portfolio name={dog.name} description={dog.description} key={dog.id} />
-      ))}
+      <h3>Recipe Generator</h3>
+      <img src="/images/projectscreenshot.png" alt=""></img>
+
+      <div>
+        <a href="https://relentlessreed.github.io/project1/">deployed link</a>
+      </div>
+
+      <div>
+        <a href="https://github.com/relentlessreed/project1">Github repos</a>
+      </div>
+      <div>
+        <h3>Event Planner</h3>
+        <img src="/images/eventplan.png" alt=""></img>
+
+        <div>
+          <a href="https://the-event-planning.herokuapp.com/">deployed link</a>
+        </div>
+
+        <div>{/* <a href="">Github repos</a> */}</div>
+      </div>
+      <div>
+        <h3>Work Schedule</h3>
+        <img src="/images/workschedule.png" alt=""></img>
+
+        <div>
+          <a href="https://jose8160.github.io/homework-5/">deployed link</a>
+        </div>
+
+        <div>
+          {/* <a href="https://github.com/relentlessreed/project1">Github repos</a> */}
+        </div>
+      </div>
+      <div>
+        <h3>Password Generator</h3>
+        <img src="/images/PasswordGenerator.png" alt=""></img>
+
+        <div>
+          <a href="https://jose8160.github.io/homework-3/">deployed link</a>
+        </div>
+
+        <div>
+          {/* <a href="https://github.com/relentlessreed/project1">Github repos</a> */}
+        </div>
+      </div>
     </div>
   );
 }
-
-
-
-
-
-
-
-
 
 // import React from 'react';
 
