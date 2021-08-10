@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <h3>Recipe Generator</h3>
-      <img src="/images/projectscreenshot.png" alt=""></img>
+      <img src={process.env.PUBLIC_URL + "/images/projectscreenshot.png"} />
 
       <div>
         <a href="https://relentlessreed.github.io/project1/">deployed link</a>
@@ -15,7 +15,10 @@ export default function About() {
       </div>
       <div>
         <h3>Event Planner</h3>
-        <img src="/images/eventplan.png" alt=""></img>
+        <img
+          src={process.env.PUBLIC_URL + "/images/eventplan.png"}
+          alt=""
+        ></img>
 
         <div>
           <a href="https://the-event-planning.herokuapp.com/">deployed link</a>
@@ -25,7 +28,10 @@ export default function About() {
       </div>
       <div>
         <h3>Work Schedule</h3>
-        <img src="/images/workschedule.png" alt=""></img>
+        <img
+          src={process.env.PUBLIC_URL + "/images/workschedule.png"}
+          alt=""
+        ></img>
 
         <div>
           <a href="https://jose8160.github.io/homework-5/">deployed link</a>
@@ -37,7 +43,10 @@ export default function About() {
       </div>
       <div>
         <h3>Password Generator</h3>
-        <img src="/images/PasswordGenerator.png" alt=""></img>
+        <img
+          src={process.env.PUBLIC_URL + "/images/PasswordGenerator.png"}
+          alt=""
+        ></img>
 
         <div>
           <a href="https://jose8160.github.io/homework-3/">deployed link</a>
